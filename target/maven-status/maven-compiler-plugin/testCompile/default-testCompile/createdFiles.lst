@@ -1,0 +1,12 @@
+PixTests\ConsutarDadosClienteTest.class
+PixTests\GeraQRCodeTest.class
+PixTests\ConsultaListaChavesTest.class
+PixTests\VincularChavePhoneTest.class
+PixTests\ConsultaSaldoPixTest.class
+PixTests\ConsultaExtratoPixTest.class
+PixTests\ConsumirQRCodeTest.class
+PixTests\DevolucaoPix.class
+PixTests\GeraTokenPixTest.class
+PixTests\VincularChaveCPFTest.class
+PixTests\ValidaTokenPixTest.class
+PixTests\OrdemDePagamentoTest.class

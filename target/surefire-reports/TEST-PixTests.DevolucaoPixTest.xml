@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PixTests.DevolucaoPixTest" time="6.173" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\10255058675\Documents\Workspace\Pix-AUtomation\Automacao-pix\target\test-classes;C:\Users\10255058675\Documents\Workspace\Pix-AUtomation\Automacao-pix\target\classes;C:\Users\10255058675\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\rest-assured\4.0.0\rest-assured-4.0.0.jar;C:\Users\10255058675\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\10255058675\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\10255058675\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\10255058675\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\10255058675\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\10255058675\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\10255058675\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\10255058675\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\10255058675\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\xml-path\4.0.0\xml-path-4.0.0.jar;C:\Users\10255058675\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\10255058675\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\10255058675\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\10255058675\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\10255058675\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\10255058675\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\json-path\4.0.0\json-path-4.0.0.jar;C:\Users\10255058675\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\rest-assured-common\4.0.0\rest-assured-common-4.0.0.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\json-schema-validator\4.3.0\json-schema-validator-4.3.0.jar;C:\Users\10255058675\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\10255058675\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\10255058675\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\10255058675\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\10255058675\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\10255058675\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\10255058675\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\10255058675\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\10255058675\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\10255058675\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\10255058675\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\10255058675\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\10255058675\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\10255058675\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\10255058675\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\10255058675\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\10255058675\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\10255058675\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\10255058675\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\10255058675\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\10255058675\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\10255058675\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\10255058675\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\10255058675\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\10255058675\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\10255058675\.m2\repository\org\apache\maven\maven-plugin-api\3.6.3\maven-plugin-api-3.6.3.jar;C:\Users\10255058675\.m2\repository\org\apache\maven\maven-model\3.6.3\maven-model-3.6.3.jar;C:\Users\10255058675\.m2\repository\org\apache\maven\maven-artifact\3.6.3\maven-artifact-3.6.3.jar;C:\Users\10255058675\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.4\org.eclipse.sisu.plexus-0.3.4.jar;C:\Users\10255058675\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\10255058675\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\10255058675\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\10255058675\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.4\org.eclipse.sisu.inject-0.3.4.jar;C:\Users\10255058675\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\10255058675\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\10255058675\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\10255058675\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\102550~1\AppData\Local\Temp\surefire5233333659364003385\surefirebooter7349053145804354352.jar C:\Users\10255058675\AppData\Local\Temp\surefire5233333659364003385 2021-02-02T09-31-56_343-jvmRun1 surefire9058598683815390447tmp surefire_03784616232741143321tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\10255058675\Documents\Workspace\Pix-AUtomation\Automacao-pix\target\test-classes;C:\Users\10255058675\Documents\Workspace\Pix-AUtomation\Automacao-pix\target\classes;C:\Users\10255058675\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\rest-assured\4.0.0\rest-assured-4.0.0.jar;C:\Users\10255058675\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\10255058675\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\10255058675\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\10255058675\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\10255058675\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\10255058675\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\10255058675\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\10255058675\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\10255058675\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\xml-path\4.0.0\xml-path-4.0.0.jar;C:\Users\10255058675\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\10255058675\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\10255058675\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\10255058675\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\10255058675\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\10255058675\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\json-path\4.0.0\json-path-4.0.0.jar;C:\Users\10255058675\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\rest-assured-common\4.0.0\rest-assured-common-4.0.0.jar;C:\Users\10255058675\.m2\repository\io\rest-assured\json-schema-validator\4.3.0\json-schema-validator-4.3.0.jar;C:\Users\10255058675\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\10255058675\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\10255058675\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\10255058675\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\10255058675\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\10255058675\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\10255058675\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\10255058675\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\10255058675\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\10255058675\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\10255058675\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\10255058675\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\10255058675\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\10255058675\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\10255058675\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\10255058675\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\10255058675\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\10255058675\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\10255058675\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\10255058675\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\10255058675\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\10255058675\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\10255058675\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\10255058675\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\10255058675\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\10255058675\.m2\repository\org\apache\maven\maven-plugin-api\3.6.3\maven-plugin-api-3.6.3.jar;C:\Users\10255058675\.m2\repository\org\apache\maven\maven-model\3.6.3\maven-model-3.6.3.jar;C:\Users\10255058675\.m2\repository\org\apache\maven\maven-artifact\3.6.3\maven-artifact-3.6.3.jar;C:\Users\10255058675\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.4\org.eclipse.sisu.plexus-0.3.4.jar;C:\Users\10255058675\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\10255058675\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\10255058675\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\10255058675\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.4\org.eclipse.sisu.inject-0.3.4.jar;C:\Users\10255058675\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\10255058675\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\10255058675\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\10255058675\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\10255058675"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="C:\Users\10255058675\Documents\Workspace\Pix-AUtomation\Automacao-pix"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\102550~1\AppData\Local\Temp\surefire5233333659364003385\surefirebooter7349053145804354352.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="10255058675"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\10255058675\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\102550~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="C:\Users\10255058675\Documents\Workspace\Pix-AUtomation\Automacao-pix"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\CCM;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;%JAVA_HOME%\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Users\10255058675\AppData\Local\Microsoft\WindowsApps;C:\Users\10255058675\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="devolucaoDePagamento" classname="PixTests.DevolucaoPixTest" time="6.173">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at PixTests.DevolucaoPixTest.devolucaoDePagamento(DevolucaoPixTest.java:97)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api-hml.bancopan.com.br/bancodigital/api/v1/autenticacao
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		origem=automacao
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "usuario": "19271475305",
+    "senha": "240391"
+}
+HTTP/1.1 200 OK
+Context-Path: /autenticacao
+TraceId: 1272855ccfb206f8
+X-Application-Context: api--autenticacao:hml:5000
+Content-Encoding: gzip
+Content-Type: application/json;charset=UTF-8
+Content-Length: 200
+Date: Tue, 02 Feb 2021 12:32:19 GMT
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=PEPDODJKCOHBDHDOMIFOGOFKJJCNMHMHKOLCHAAFNJAKLCCDOOJJCIOHFKFLPFCCHCPDMGFOGGJHJEPOIIPANIJGAEFIEEHHBBBIBBOOLOIGAKGDPALBIJINDNJDDLGO; HttpOnly; secure
+Set-Cookie: TS01b8223e=0142889eb891101abc07d4e7f5123f0a33c4eec47571524d9893b624ccbe95bf5e68e6e760ae02964ee6e88baa7a683265dc965eeb498b8f0e19dd1228e0abe297f8d0a453; Path=/
+Set-Cookie: TS01b8223e030=01c5acd08e88a12ffd0f9ef609f6fd4ef14e5eb68eb910633ffbf11da5d33730db301d796acb3dc2604e2f946e261d5e0e0a25bcbd; Path=/
+
+{
+    "metadata": {
+        "stage": "hml",
+        "type": "object"
+    },
+    "results": {
+        "tokenAcesso": "c41FGkwwhrRlJrQ_-v04f9-r0xcw4LFGhMzBmZxvaFE",
+        "expiracao": 3600,
+        "tipoToken": "Bearer",
+        "refreshToken": "hgOndK9Nz2rdwFbzzyRmP-bdXCcEqRAHkCs2wtmZ4gA"
+    }
+}
+Request method:	POST
+Request URI:	https://api-hml.bancopan.com.br/bancodigital/api/v1/autenticacao
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		origem=automacao
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "usuario": "19271475305",
+    "senha": "240391"
+}
+HTTP/1.1 200 OK
+Context-Path: /autenticacao
+TraceId: a23ba3623a0a2e78
+X-Application-Context: api--autenticacao:hml:5000
+Content-Encoding: gzip
+Content-Type: application/json;charset=UTF-8
+Content-Length: 201
+Date: Tue, 02 Feb 2021 12:32:19 GMT
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=HDNNEGDDCIBOOBGGKDGCABOPMGFPIKBLFCGKBJGNDJLHFHHCFCEPGLMMIHHJCEDDOEODBKKDIGLADPPCMHFACFEOAEPDELBPKMMLGCIJLDAAKHDCBEIHAFEIMMCPAFDE; HttpOnly; secure
+Set-Cookie: TS01b8223e=0142889eb8729c3e3a1822108774a4765b8898c4f52d06eac878bfa5c6a73b9ab7f4bc10140f539d2471e53788ec0b210e92669b01b8c3c2fa389e762a064747237e930e10; Path=/
+Set-Cookie: TS01b8223e030=01c5acd08ec1bd30995f6a71a87bdd6f9b3d73da2cdfb7ac7eb06e21e2ab731a3e96b1703ce98480fa54d32202a54903a16088111c; Path=/
+
+{
+    "metadata": {
+        "stage": "hml",
+        "type": "object"
+    },
+    "results": {
+        "tokenAcesso": "9O2yV4LCH9oTasqKYRNuZyI5xumctCIO3_Y7flQi65Y",
+        "expiracao": 3600,
+        "tipoToken": "Bearer",
+        "refreshToken": "6ZvKDQsv75BSj2019ZTH9lwpgICpIt3umDdweM2AxgI"
+    }
+}
+Request method:	POST
+Request URI:	https://cn-int-api--pix-bff-env-hml.bancopan.com.br/pix/transferencia/v1/ordem-pagamento
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		origem=automacao
+				idsessao=123444
+				numero=0094889432
+				agencia=0001
+				ispb=59285411
+				Authorization=Bearer 9O2yV4LCH9oTasqKYRNuZyI5xumctCIO3_Y7flQi65Y
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "valor": 20,
+    "chave": "19271475305",
+    "pagador": {
+        "documento": {
+            "cpfCnpj": "19271475305",
+            "nome": "John Down"
+        }
+    },
+    "recebedor": {
+        "documento": {
+            "cpfCnpj": "30807659584",
+            "nome": "Blue Man"
+        },
+        "conta": {
+            "ispb": "59285411",
+            "agencia": "0001",
+            "numero": "0094889424",
+            "tipo": "CONTA_CORRENTE"
+        }
+    }
+}
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Context-Path: /pix/transferencia/v1/ordem-pagamento
+Date: Tue, 02 Feb 2021 12:32:22 GMT
+idSessao: 123444
+Server: nginx/1.16.1
+Content-Length: 107
+Connection: keep-alive
+
+{
+    "metadata": {
+        "stage": "hml,live",
+        "type": "object"
+    },
+    "results": {
+        "endToEnd": "E59285411202102021232w2diSFl6mRo"
+    }
+}
+Request method:	POST
+Request URI:	https://cn-int-api--pix-bff-env-hml.bancopan.com.br/pix/transferencia/v1/devolucao
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		origem=automacao
+				idsessao=123444
+				ispb=59285411
+				agencia=0001
+				numero=0098069634
+				Authorization=Bearer c41FGkwwhrRlJrQ_-v04f9-r0xcw4LFGhMzBmZxvaFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "cpfCnpjSolicitante": "19271475305",
+    "endToEnd": "E59285411202102021232w2diSFl6mRo",
+    "codigoMotivo": "OUTROS",
+    "motivo": "Duplication",
+    "valorOperacao": 20
+}
+HTTP/1.1 401 
+Content-Type: application/json;charset=UTF-8
+Context-Path: /pix/transferencia/v1/devolucao
+Date: Tue, 02 Feb 2021 12:32:23 GMT
+idSessao: 123444
+Server: nginx/1.16.1
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "metadata": {
+        "stage": "hml,live",
+        "type": "error",
+        "info": "https://bancopan.atlassian.net/wiki/spaces/PIX/overview"
+    },
+    "results": {
+        "userMessage": "Sua sessão expirou",
+        "developerMessage": "Token de acesso expirou",
+        "code": "AUTH-0005",
+        "origin": "INTERNAL"
+    }
+}
+]]></system-out>
+  </testcase>
+</testsuite>

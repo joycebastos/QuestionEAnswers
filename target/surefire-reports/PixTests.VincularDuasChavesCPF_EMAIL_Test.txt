@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: PixTests.VincularDuasChavesCPF_EMAIL_Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.716 s <<< FAILURE! - in PixTests.VincularDuasChavesCPF_EMAIL_Test
+vinculaEmailTeste  Time elapsed: 2.012 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <412>.
+
+	at PixTests.VincularDuasChavesCPF_EMAIL_Test.vinculaEmailTeste(VincularDuasChavesCPF_EMAIL_Test.java:62)
+
+vinculaCPF  Time elapsed: 1.703 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <412>.
+
+	at PixTests.VincularDuasChavesCPF_EMAIL_Test.vinculaCPF(VincularDuasChavesCPF_EMAIL_Test.java:101)
+

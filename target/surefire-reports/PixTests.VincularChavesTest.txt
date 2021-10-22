@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: PixTests.VincularChavesTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.321 s <<< FAILURE! - in PixTests.VincularChavesTest
+vinculaEmail  Time elapsed: 1.801 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <412>.
+
+	at PixTests.VincularChavesTest.vinculaEmail(VincularChavesTest.java:102)
+
+excluiCHave  Time elapsed: 2.04 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <412>.
+
+	at PixTests.VincularChavesTest.excluiCHave(VincularChavesTest.java:167)
+
